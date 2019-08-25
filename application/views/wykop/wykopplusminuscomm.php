@@ -1,0 +1,53 @@
+<?php
+
+/**
+ * @author Lukasz Sosna
+ * @copyright 2019
+ * @e-mail tree@interia.pl
+ * @e-mail support@phpbluedragon.eu
+ * @www http://phpbluedragon.eu
+ */
+ 
+echo '<ol class="breadcrumb">
+<li><a href="'.base_url().'">'.$this->lang->line('a0981').'</a></li>
+<li class="active">'.$Title.'</li>
+</ol>';
+
+echo '<h1>'.$Title.'</h1>';
+
+echo $Content.'<br /><br />';
+
+if($ViewData != "")
+{
+    echo $ViewData;    
+}
+
+echo form_open($UrlFraze);
+
+$OptionWhat['plus'] = ''.$this->lang->line('a1199').'';
+$OptionWhat['minus'] = ''.$this->lang->line('a1200').'';
+$OptionWhat['like'] = ''.$this->lang->line('a1201').'';
+
+echo '<strong>'.$this->lang->line('a1202').'</strong> <br /> '.form_dropdown('add_what', $OptionWhat, $Vadd_what, 'class="form-control"').'<br />';
+echo form_error('add_what','<div class="alert alert-danger">','</div>');
+
+$OptionWhatNum['1'] = '1';
+$OptionWhatNum['2'] = '2';
+$OptionWhatNum['3'] = '3';
+$OptionWhatNum['4'] = '4';
+$OptionWhatNum['5'] = '5';
+$OptionWhatNum['6'] = '6';
+$OptionWhatNum['7'] = '7';
+$OptionWhatNum['8'] = '8';
+$OptionWhatNum['9'] = '9';
+$OptionWhatNum['10'] = '10';
+
+
+echo '<strong>'.$this->lang->line('a1202').'</strong> <br /> '.form_dropdown('add_what_poz', $OptionWhatNum, $Vadd_what_poz, 'class="form-control"').'<br />';
+echo form_error('add_what','<div class="alert alert-danger">','</div>');
+
+echo form_hidden('formlogin','yes');
+echo form_submit(array('name' => 'buttonstart', 'value' => ''.$this->lang->line('a1203').'', 'class' => 'btn btn-info btn-block'));
+echo form_close();
+
+?>
