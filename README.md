@@ -3,8 +3,10 @@
 You probably have heard about Wykop once, maybe you have an account and would like to read the news in a slightly different format and have access to the most interesting content you have? I present WykopApi which is equipped with, among others: browsing recommended posts, excavation entries, hit entries of the year, entries last month, last two months, last three months. The program is also equipped with browsing microblog entries, hot microblog discussions, keyword searches, and the microblog tag.
 Additionally, in this system you can add comments both to the posts you are interested in and to your own microblog. You can use all the options available in the site such as: bold, italic, quote, link, code, spoiler, emoticons and files. File items can either be inserted as a URL from the internet or loaded into a program from a local disk.
 You would like to wholesale digging or burying posts on the excavation, like to blog entries, and add comments for comments. The SPAM section is just for this type of action. PLEASE NOTE: The author of the software is not liable if your account is locked in the Dump. Be reasonable and use these options in moderation! In the spam section there are links that allow you to include and subtract popular section posts, plus and minus for entries from the excavation, add pluses to hotline entries from the last 12 hours, add pluses or negatives to comments in the correct order after Add entries in both the recommended and the excavation.
-At the end I also make it easy for people who would like the whole process to be automated. The CRON link in which you can set what the script is supposed to add, what is minus, and at what time it means what hours it is supposed to do its job. Just set the right values ​​here, add a path to the CRON file, and sit back and relax to keep your account active.
+At the end I also make it easy for people who would like the whole process to be automated. The CRON link in which you can set what the script is supposed to add, what is minus, and at what time it means what hours it is supposed to do its job. Just set the right values here, add a path to the CRON file, and sit back and relax to keep your account active.
 I wish you have fun while using the program.
+
+Home page: http://phpbluedragon.eu/documentation/phpbluedragon-wykopapi/
 
 ## Requirements
 
