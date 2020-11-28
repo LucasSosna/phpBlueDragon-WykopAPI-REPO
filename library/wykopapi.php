@@ -9,7 +9,7 @@
 class libs_Wapi
 {
     protected $userAgent = 'WykopAPI';
-    protected $apiDomain = 'https://a.wykop.pl/';
+    protected $apiDomain = 'https://a2.wykop.pl/';
     protected $key = null;
     protected $secret = null;
     protected $userKey = null;

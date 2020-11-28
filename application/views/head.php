@@ -251,6 +251,7 @@
     <div class="container">
     
         <?php
+        /*
         if($this->System_model->CheckLicenseExistsNoAlert() == 'yes')
         {
             $DontShow = true;
@@ -260,6 +261,7 @@
         {
             ?><div class="alert alert-warning"><?php echo $this->lang->line('a1072'); ?></div><?php
         }
+        */
         ?>
 <?php
 //echo password_hash('god123', PASSWORD_DEFAULT);	

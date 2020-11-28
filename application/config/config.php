@@ -513,4 +513,18 @@ $config['rewrite_short_tags'] = FALSE;
 */
 $config['proxy_ips'] = '';
 
+?><?php
+
+$config['base_url'] = 'http://localhost/GitHubProjects/phpBlueDragonWykopAPI/';
+
+$config['send_email_user_name'] = 'Łukasz';
+$config['send_email_stmp_host'] = 'lukasz.sos.pl';
+$config['send_email_stmp_username'] = 'lukasz';
+$config['send_email_stmp_password'] = 'password';
+$config['send_email_stmp_port'] = 587;
+$config['send_email_access'] = 'text';
+$config['send_email_tls'] = false;
+
+$config['language'] = 'polish';
+
 ?>

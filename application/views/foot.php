@@ -16,7 +16,7 @@
     width: 100%; background-color: #27313D; border-top: solid 3px #2BABD2;">
     <div class="container" style="margin-top: 5px;">
         <div style="padding: 5px; color: #A6A299;">
-        Copyright &copy; 2017-2019 - by <a href="http://phpbluedragon.eu" target="_blank" style="color: #ffffff;">phpBlueDragon WykopAPI</a> | <a href="<?php echo base_url('components'); ?>" style="color: #ffffff;"><?php echo $this->lang->line('a1069'); ?></a>
+        Copyright &copy; 2017-<?php echo date('Y'); ?> - by <a href="http://phpbluedragon.eu" target="_blank" style="color: #ffffff;">phpBlueDragon WykopAPI</a> | <a href="<?php echo base_url('components'); ?>" style="color: #ffffff;"><?php echo $this->lang->line('a1069'); ?></a>
         </div>
     </div>
 </div>
